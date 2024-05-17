@@ -22,6 +22,9 @@ app.use(
   })
 );
 
-app.listen(PORT);
+app.listen(PORT, ()=>{
+ console.log("listen")
+  
+});
 
 export default app;
