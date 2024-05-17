@@ -15,7 +15,7 @@ app.use(apiLimiter);
 app.use(
   "/api",
   createProxyMiddleware({
-    target: "https://59e9-27-4-62-5.ngrok-free.app",
+    target: "https://toucan-heroic-basically.ngrok-free.app",
     changeOrigin: true,
   })
 );
