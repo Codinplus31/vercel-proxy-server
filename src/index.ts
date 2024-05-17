@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 app.use(
   "/api",
   createProxyMiddleware({
-    target: "http://localhost:4000",
+    target: "https://vercel-proxy-server-fawn.vercel.app",
     changeOrigin: true,
   })
 );
